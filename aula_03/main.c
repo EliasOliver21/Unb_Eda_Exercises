@@ -1,11 +1,12 @@
 #include <stdio.h>
 
-int main(){
+int main()
+{
 
     int idade = 0;
+    char nome[15] = "";
 
-    printf("Digite sua idade: \n");
-    scanf("%d", &idade);
-    printf("Você tem: %d anos \n", idade);
-
+    printf("Digite seu nome e sua idade: \n");
+    scanf("%s %d", &nome, &idade);
+    printf("%s Você tem %d anos \n",nome, idade);
 }
