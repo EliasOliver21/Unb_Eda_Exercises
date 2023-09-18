@@ -22,25 +22,25 @@ int main()
         case 1:
 
             resultado = num1 + num2;
-            printf("O resultado é %.2f. \n", resultado);
+            printf("O resultado é %.2f . \n", resultado);
             break;
         
         case 2:
 
             resultado = num1 - num2;
-            printf("O resultado é %.2f. \n", resultado);
+            printf("O resultado é %.2f . \n", resultado);
             break;
 
         case 3:
 
             resultado = num1 * num2;
-            printf("O resultado é %.2f. \n", resultado);
+            printf("O resultado é %.2f . \n", resultado);
             break;
 
         case 4:
 
             resultado = num1 / num2;
-            printf("O resultado é %.2f. \n", resultado);
+            printf("O resultado é %.2f . \n", resultado);
             break;
 
         default:
