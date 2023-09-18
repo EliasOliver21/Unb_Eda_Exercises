@@ -53,4 +53,6 @@ int main()
         scanf("%d", &lp);
         
     }while(lp == 0);
+
+    return 0;
 }

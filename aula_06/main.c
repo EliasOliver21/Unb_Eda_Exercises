@@ -23,5 +23,6 @@ int main(){
         
     }while(b > 1 );
 
+    return 0;
 
 }

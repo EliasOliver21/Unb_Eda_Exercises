@@ -25,4 +25,6 @@ int main(){
         printf("Número inválido digite um número de 1 a 3.\n");
         break;
     }
+
+    return 0;
 }

@@ -9,4 +9,6 @@ int main()
     printf("Digite seu nome e sua idade: \n");
     scanf("%s %d", &nome, &idade);
     printf("%s Você tem %d anos \n",nome, idade);
+
+    return  0;
 }
