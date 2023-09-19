@@ -10,11 +10,13 @@ main()
     {
         ch = fgetc(fp);
 
+        
         if (ch == EOF)
             break;
-            printf("%c \n", ch);
-        
-        fclose(fp);
+        printf("%c", ch);
+               
         
     }
+    printf("\n");
+    fclose(fp);
 }
