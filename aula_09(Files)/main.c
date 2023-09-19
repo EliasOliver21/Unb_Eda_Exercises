@@ -1,8 +1,20 @@
 #include <stdio.h>
 
-int main(){
-
+main()
+{
     FILE *fp;
-    fp = fopen("\\wsl.localhost\\Ubuntu\\home\elias\\Unb\\Unb_Eda_Exercises\\aula_09(Files)\\)","w");
+    char ch;
+    fp = fopen("prog1.c", "r");
     
+    while (1)
+    {
+        ch = fgetc(fp);
+
+        if (ch == EOF)
+            break;
+            printf("%c \n", ch);
+        
+        fclose(fp);
+        
+    }
 }
