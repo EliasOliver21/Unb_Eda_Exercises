@@ -1,0 +1,1 @@
+A linguagem Java é orientada à objetos.
