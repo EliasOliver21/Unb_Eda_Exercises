@@ -1,15 +1,16 @@
 #include <stdio.h>
 
-int CriaVetInt(int num) {
-  
-  int vetor2[num];
-  int *pointer = &vetor2;
-  printf("%d \n",pointer);
-}
+int main() {
+int numero = 79417;
+int *ptr; // Declaração de um ponteiro para int
 
-int main(){
+//Atribuição do endereço de 'numero' ao ponteiro ptr:
+ptr = &numero;
 
-    CriaVetInt(10);
+//Impressão do endereço de 'numero'
+// e seu valor usando o ponteiro
+printf("Endereço de 'numero': %p\n", ptr);
+printf("Valor de 'numero': %d\n", *ptr);
 
 return 0;
 }
