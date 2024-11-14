@@ -17,12 +17,12 @@ int main(){
 
     // char ibge[25][100];
 
-    while (fgets(linhas[num_linhas], 100, fp) != NULL && num_linhas < 200) {
+    while (fgets(linhas[num_linhas], 100, fp) != NULL && num_linhas < 20) {
         linhas[num_linhas][strcspn(linhas[num_linhas], "\n")] = '\0'; // Remove o caractere de nova linha, se presente
         num_linhas++;
     }
 
-    for(int i =0;i<200;i++){
+    for(int i =0;i<20;i++){
 
         printf("Linha %d: %s \n",i+1,linhas[i]);
     }
